@@ -2,7 +2,14 @@
     --color-secundary: #e72313;
     --color-bg: #fffcf7;
     --color-tertiary: #67b588;
-    --color-primary: #141325;
+    --color-primary: #111111;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--color-bg);
 }
 
 *{
@@ -12,8 +19,18 @@
         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--color-primary);
     text-rendering: optimizeSpeed;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
 }
 
 li{
     list-style: none;
+}
+
+.wrap{
+    max-width: 1024px;
+    margin-inline: auto;
 }

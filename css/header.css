@@ -1,0 +1,44 @@
+.header{
+    height: 75px;
+    background-color: var(--color-primary);
+    padding-block: 5px;
+}
+
+.header .wrap{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.header__container_picture{
+    border-radius: 50%;
+    aspect-ratio: 1;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header__my_picture{
+    height: 100%;
+    object-fit: contain;
+}
+
+.header__list{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.list__link{
+    font-weight: bold;
+    color: var(--color-bg);
+}
+
+.top__image_background{
+    height: 60vh;
+    min-height: 25rem;
+}
+.top__image_background > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
