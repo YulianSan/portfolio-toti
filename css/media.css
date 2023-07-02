@@ -1,0 +1,32 @@
+.medias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.medias__media{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.media__picture{
+    background: var(--color-primary);
+    font-size: 3rem;
+    color: var(--color-bg);
+    width: 4.5rem;
+    display: grid !important;
+    place-items: center;
+    box-shadow: 10px 10px 10px #00000088;
+    
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.media__title{
+    display: block;
+    margin-top: .5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}

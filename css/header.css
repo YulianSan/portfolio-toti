@@ -25,7 +25,7 @@
 
 .header__list{
     display: flex;
-    gap: 0.8rem;
+    gap: 2rem;
 }
 
 .list__link{

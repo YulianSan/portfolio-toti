@@ -1,0 +1,11 @@
+.section_timeline{
+    padding-block: 1rem;
+    box-shadow: 0 0 0 100vmax var(--color-primary);
+    background-color: var(--color-primary);
+    clip-path: inset(0 -100vmax);
+}
+
+.section_timeline *{
+    color: var(--color-bg);
+}
+
