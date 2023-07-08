@@ -1,5 +1,4 @@
 .section_timeline{
-    padding-block: 5rem;
     clip-path: inset(0 -100vmax);
 }
 .section_timeline.formation{
@@ -14,12 +13,6 @@
 
 .section_timeline *{
     color: var(--color-bg);
-}
-
-.section_timeline h2{
-    font-size: 3rem;
-    font-weight: lighter;
-    margin-bottom: .5em;
 }
 
 .list_timeline__item{
