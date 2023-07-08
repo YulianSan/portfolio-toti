@@ -33,3 +33,11 @@ li{
     max-width: 1024px;
     margin-inline: auto;
 }
+.section__title{
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: .5em;
+}
+.section{
+    padding-block: 5rem;
+}
