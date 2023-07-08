@@ -1,11 +1,67 @@
 .section_timeline{
-    padding-block: 1rem;
-    box-shadow: 0 0 0 100vmax var(--color-primary);
-    background-color: var(--color-primary);
+    padding-block: 5rem;
     clip-path: inset(0 -100vmax);
+}
+.section_timeline.formation{
+    background-color: var(--color-primary);
+    box-shadow: 0 0 0 100vmax var(--color-primary);
+}
+
+.section_timeline.experience{
+    background-color: var(--color-secundary);
+    box-shadow: 0 0 0 100vmax var(--color-secundary);
 }
 
 .section_timeline *{
     color: var(--color-bg);
 }
 
+.section_timeline h2{
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: .5em;
+}
+
+.list_timeline__item{
+    list-style: none;
+    position: relative;
+}
+
+.list_timeline__item +.list_timeline__item{
+    margin-top: 1rem;
+
+}
+
+.list_timeline__item::after{
+    content: "";
+    position: absolute;
+    width: .3rem;
+    border-radius: 1rem;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: -2rem;
+}
+
+.list_timeline__header{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.list_timeline__header time{
+    font-size: .8rem;
+}
+time + time::before{
+    content: '-';
+    margin-right: .3rem;
+}
+
+.list_timeline__content h3{
+    font-size: 1.3rem;
+    margin-block: .3rem;
+}
+
+.list_timeline__content h4{
+    font-weight: normal;
+}
