@@ -10,6 +10,7 @@
         <link href="css/about.css" rel="stylesheet">
         <link href="css/timeline.css" rel="stylesheet">
         <link href="css/project.css" rel="stylesheet">
+        <link href="css/contact.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3d37bc774e.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -197,8 +198,8 @@
                 </div>
             </section>
         </main>
-        <footer id="contact" class="contact">
-            <h2>Contato</h2>
+        <footer id="contact" class="contact section wrap">
+            <h2 class="section__title">Contato</h2>
             <div class="contact__content">
                 <div class="contact__description">
                     <p class="contact__paragraph">
@@ -231,7 +232,7 @@
                         <div class="form__group_input">
                             <label for="name">NOME</label>
                             <input id="name" type="text" name="name">
-                        </div>
+                        </div>  
                         <div class="form__group_input">
                             <label for="email">E-MAIL</label>
                             <input id="email" type="email" name="email">
@@ -242,9 +243,11 @@
                         </div>
                         <div class="form__group_input">
                             <label for="message">MENSAGEM</label>
-                            <textarea rows="15" cols="40"></textarea>
+                            <textarea name="message" id="message" rows="15" cols="40"></textarea>
                         </div>
-                        <button type="submit" class="form__btn">ENVIAR</button>
+                        <div class="form__group_btn">
+                            <button type="submit" class="form__btn">ENVIAR</button>
+                        </div>
                     </form>
                 </div>
             </div>

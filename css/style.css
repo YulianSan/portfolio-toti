@@ -40,4 +40,6 @@ li{
 }
 .section{
     padding-block: 5rem;
+    clip-path: inset(0 -100vmax);
+    box-shadow: 0 0 0 100vmax var(--bg);
 }
