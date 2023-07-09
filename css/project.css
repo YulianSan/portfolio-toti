@@ -1,0 +1,27 @@
+.projects__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.projects__project{
+    flex: 1 1 200px;
+    max-width: 350px;
+    box-shadow: 0px 0px .3rem #bebeee;
+    padding: 1rem;
+    border-radius: .8rem;
+}
+
+.project__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__links a{
+    background-color: var(--color-secundary);
+    color: var(--color-bg);
+    padding: .5em 1em;
+    border-radius: .3em;
+    font-weight: bold;
+}
